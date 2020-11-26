@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "637651323426",
+    "firebase_url": "https://musicanos-8393e.firebaseio.com",
+    "project_id": "musicanos-8393e",
+    "storage_bucket": "musicanos-8393e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637651323426:android:483e38df01a5a95b71987b",
+        "android_client_info": {
+          "package_name": "com.example.musicanos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637651323426-5bfh5ru2lrq7g7o1avcpneq2ntpv0qcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5wI6LMoPfBmFJUgVqCT5z0FmI6MSw1bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637651323426-5bfh5ru2lrq7g7o1avcpneq2ntpv0qcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
