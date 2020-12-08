@@ -1,4 +1,4 @@
-package com.example.musicanos.callbacks
+package com.example.musicanos.exoplayer.callbacks
 
 import android.app.Notification
 import android.content.Intent
