@@ -12,6 +12,7 @@ import com.example.musicanos.exoplayer.callbacks.MusicPlaybackPreparer
 import com.example.musicanos.exoplayer.callbacks.MusicPlayerEventListener
 import com.example.musicanos.exoplayer.callbacks.MusicPlayerNotificationListener
 import com.example.musicanos.others.Constants.MEDIA_ROOT_ID
+import com.example.musicanos.others.Constants.NETWORK_ERROR
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector
@@ -133,6 +134,7 @@ class MusicService : MediaBrowserServiceCompat() {
                             isPlayerInitialised = true
                         }
                     } else {
+                        mediaSession.sendSessionEvent(NETWORK_ERROR, null)
                         result.sendResult(null)
                     }
                 }

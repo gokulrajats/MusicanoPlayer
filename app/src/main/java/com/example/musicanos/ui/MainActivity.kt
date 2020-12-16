@@ -1,8 +1,9 @@
-package com.example.musicanos
+package com.example.musicanos.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.RequestManager
+import com.example.musicanos.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
